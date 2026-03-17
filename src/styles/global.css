@@ -1,0 +1,47 @@
+```css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  margin: 0;
+}
+```
+
+This code sets up a basic shopping website with a home page, products page, product details page, and cart page. It uses React for the frontend and includes basic styling with CSS. Note that this is just a starting point, and you will need to add more features, functionality, and styling to create a fully functional shopping website.
+
+To run the application, navigate to the project directory and run `npm start`. This will start the development server, and you can access the website at `http://localhost:3000`.
